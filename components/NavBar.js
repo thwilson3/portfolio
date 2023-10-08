@@ -32,7 +32,7 @@ export default function Navbar() {
                   <a
                     href={item.link}
                     key={idx}
-                    className="ml-1 bg-transparent p-1 font-thin text-[#ffde37] transition duration-500 ease-in-out hover:text-black hover:bg-[#ffde37] max-[991px]:block md:px-10 lg:px-4"
+                    className="ml-1 bg-transparent p-1 font-thin text-primary transition duration-500 ease-in-out hover:text-black hover:bg-primary max-[991px]:block md:px-10 lg:px-4"
                   >
                     {item.text}
                   </a>
