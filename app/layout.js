@@ -6,8 +6,9 @@ export const metadata = {
 }
 
 const customStyles = {
-  fontFamily: 'Share Tech Mono, monospace',
-  letterSpacing: '.01px'
+  fontFamily: 'Work Sans, sans-serif',
+  letterSpacing: '-.5px',
+  fontWeight: '100'
 }
 
 export default function RootLayout({ children }) {

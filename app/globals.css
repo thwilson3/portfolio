@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;400;500;600;700&display=swap');
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -19,7 +20,7 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  color: rgb(162, 81, 81);
   background: linear-gradient(
       to bottom,
       transparent,
