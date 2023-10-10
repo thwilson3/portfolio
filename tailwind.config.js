@@ -10,15 +10,18 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
       colors: {
-        primary:'#ffd037',
+        primary:'#edb937',
         secondary: 'white',
-        accent: '#ffffff'
+        accent: '#ffffff',
+        background: '#1d140c'
+      },
+      fontFamily: {
+        mono: ['var(--font-SF-Mono)']
+      },
+      dropShadow: {
+        primaryGlow: "0 2px 12px #b0712d",
+        whiteGlow: "0 2px 12px #d1d1d1",
       }
     },
   },
